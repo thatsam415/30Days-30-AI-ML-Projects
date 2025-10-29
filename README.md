@@ -66,7 +66,7 @@ Each project is designed to:
 
 ---
 
-### 📚 Daily Project List  
+### 📚 Project List  
 
 | Day | Project Title | Focus Area |
 |-----|----------------|-------------|
