@@ -70,7 +70,7 @@ Each project is designed to:
 
 | Day | Project Title | Focus Area |
 |-----|----------------|-------------|
-| 01 | Project 1 | . |
+| 01 | Credit Card Fraud Detection | 🧮 Machine Learning (Data Preprocessing) |
 | ... | ... | ... |
 
 *(This table will be updated daily as new projects are added.)*
