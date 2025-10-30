@@ -114,6 +114,6 @@ I’ll be sharing **daily insights, learnings, and project updates** on LinkedIn
 ## 🧭 Final Thoughts  
 
 This challenge is about more than just code — it’s about **consistency, creativity, and curiosity.**  
-Every day brings a new dataset, a new algorithm, and a new opportunity to grow as a data scientist.  
+Every day brings a new dataset, a new algorithm, and a new opportunity to grow as a AI Professional.  
 
 > *Building skills, sharpening logic, and mastering AI — step by step 💪🚀* 
