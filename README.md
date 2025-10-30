@@ -68,10 +68,10 @@ Each project is designed to:
 
 ### 📚 Project List  
 
-| Day | Project Title | Focus Area |
+| Day | Project Title | Description | Focus Area |
 |-----|----------------|-------------|
-| 01 | Credit Card Fraud Detection | 🧮 Machine Learning (Data Preprocessing) |
-| ... | ... | ... |
+| 01 | Credit Card Fraud Detection | Advanced Data Cleaning & Outlier Detection Pipeline using Isolation Forests and Robust Scaling | 🧮 Machine Learning (Data Preprocessing) |
+| ... | ... | ... | ... |
 
 *(This table will be updated daily as new projects are added.)*
 
