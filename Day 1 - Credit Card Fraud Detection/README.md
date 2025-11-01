@@ -1,36 +1,49 @@
-# 🧠 Day 01 — Credit Card Fraud Detection 
+# 💳 Day 01 — Credit Card Fraud Detection  
 
-> 🎯 *Advanced Data Cleaning & Outlier Detection Pipeline using Isolation Forests and Robust Scaling*
-
----
+> 🎯 *Advanced Data Cleaning & Outlier Detection Pipeline using Isolation Forests and Robust Scaling*  
 
 ## 📘 Overview  
 
-This project aims to predict **house prices** based on various features such as area, number of rooms, and location.  
-It explores data preprocessing, feature engineering, and regression model building to estimate property prices effectively.
+This project focuses on **detecting fraudulent credit card transactions** using machine learning models.  
+Fraud detection is a **highly imbalanced classification problem**, where the goal is to correctly identify rare fraudulent cases without triggering excessive false alarms.  
+
+The project implements multiple models — including **Logistic Regression**, **Decision Tree**, **Random Forest**, **XGBoost**, and **LightGBM** — and evaluates them based on **Precision**, **Recall**, **F1-Score**, **ROC-AUC**, and **PR-AUC** to select the best-performing algorithm.
 
 ---
 
 ## 📊 Dataset  
 
-- **Source:** [Kaggle - House Prices Dataset](https://www.kaggle.com/datasets)  
-- **Description:** Contains features like `LotArea`, `YearBuilt`, `SalePrice`, etc.  
-- **Shape:** 1460 rows × 81 columns  
+- **Source:** [Kaggle - Credit Card Fraud Detection Dataset](https://www.kaggle.com/mlg-ulb/creditcardfraud)  
+- **Description:** Contains anonymized transaction data with features like `V1` to `V28` (PCA components), `Amount`, and the target variable `Class` (1 = Fraud, 0 = Legitimate).  
+- **Shape:** 284,807 rows × 31 columns  
+- **Imbalance:** Fraud cases ≈ 0.17% of total transactions  
 
 ---
 
 ## ⚙️ Workflow  
 
-1. **Data Loading & Cleaning**  
-   - Handle missing values, duplicates, and outliers  
+1. **Data Preprocessing**  
+   - Handled missing values and normalized transaction amounts using **StandardScaler**  
+   - Split the dataset into training and testing sets (80:20)  
+
 2. **Exploratory Data Analysis (EDA)**  
-   - Correlation heatmaps, distribution plots, feature insights  
-3. **Feature Engineering**  
-   - Encoding categorical variables, scaling, and feature selection  
-4. **Model Training**  
-   - Algorithms used: Linear Regression, Random Forest, XGBoost  
-5. **Model Evaluation**  
-   - Metrics: RMSE, MAE, R² Score  
+   - Visualized class imbalance and feature distributions  
+   - Correlation analysis to identify key transaction features  
+
+3. **Model Training**  
+   - Trained five models:  
+     - Logistic Regression  
+     - Decision Tree  
+     - Random Forest  
+     - XGBoost  
+     - LightGBM  
+
+4. **Model Evaluation**  
+   - Compared models using metrics: **Precision**, **Recall**, **F1-Score**, **ROC-AUC**, and **PR-AUC**  
+   - Visualized **ROC** and **Precision-Recall curves** for performance interpretation  
+
+5. **Model Saving**  
+   - Saved the best model (**Random Forest**) using `joblib` for deployment  
 
 ---
 
@@ -39,46 +52,51 @@ It explores data preprocessing, feature engineering, and regression model buildi
 | Category | Tools |
 |-----------|--------|
 | Language | Python 🐍 |
-| Data Handling | Pandas, NumPy |
-| Visualization | Matplotlib, Seaborn |
-| Machine Learning | Scikit-Learn, XGBoost |
+| Libraries | Pandas, NumPy, Scikit-learn, XGBoost, LightGBM, Matplotlib, Seaborn |
+| Model Persistence | Joblib |
 | Environment | Jupyter Notebook / Google Colab |
 
 ---
 
 ## 📈 Results  
 
-| Model | RMSE | R² Score |
-|--------|-------|-----------|
-| Linear Regression | 0.145 | 0.82 |
-| Random Forest | 0.120 | 0.87 |
-| XGBoost | 0.110 | 0.89 |
+| Model | F1-Score | ROC-AUC | PR-AUC |
+|--------|-----------|----------|---------|
+| Logistic Regression | 0.1039 | 0.9711 | 0.7231 |
+| Decision Tree | 0.4802 | 0.9017 | 0.2760 |
+| Random Forest | **0.8182** | **0.9630** | **0.8586** |
+| XGBoost | 0.7391 | 0.9792 | 0.8558 |
+| LightGBM | 0.6093 | 0.9496 | 0.7407 |
 
-> ✅ *XGBoost performed best with an R² score of 0.89.*
+> ✅ *Random Forest achieved the highest F1-Score (0.82) and PR-AUC (0.86), making it the best-performing model.*
 
 ---
 
 ## 🖼️ Outputs  
 
-![Visualization](../Outputs/sample_output.png)  
-*(Add your plots, confusion matrices, dashboards, etc.)*
+- Confusion Matrices for each model  
+- ROC Curves and Precision-Recall Curves  
+- Model comparison bar charts (ROC-AUC & PR-AUC)  
+- Final results table summarizing all metrics  
 
 ---
 
 ## 🧠 Key Learnings  
 
-- Learned how to handle missing data and outliers  
-- Improved understanding of regression models  
-- Practiced hyperparameter tuning and evaluation metrics  
+- Learned to handle **imbalanced datasets** using evaluation metrics like PR-AUC  
+- Understood trade-offs between **precision and recall** in fraud detection  
+- Gained hands-on experience with **tree-based ensemble models**  
+- Practiced saving and loading trained ML models using Joblib  
 
 ---
 
 ## 📚 References  
 
+- [Credit Card Fraud Detection Dataset — Kaggle](https://www.kaggle.com/mlg-ulb/creditcardfraud)  
 - [Scikit-Learn Documentation](https://scikit-learn.org/stable/)  
-- [Kaggle Tutorials](https://www.kaggle.com/learn)  
-- [Medium - Feature Engineering for ML](https://medium.com/)  
+- [XGBoost Documentation](https://xgboost.readthedocs.io/en/stable/)  
+- [LightGBM Documentation](https://lightgbm.readthedocs.io/en/latest/)  
 
 ---
 
-> *Learning. Building. Innovating. Evolving — the true spirit of AI 🌟*
+> *Detecting fraud, one transaction at a time — learning, building, and innovating with AI 💡*  
