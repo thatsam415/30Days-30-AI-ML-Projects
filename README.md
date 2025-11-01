@@ -32,11 +32,11 @@ Each project is designed to:
 | **Language** | Python 🐍 |
 | **Data Handling** | Pandas, NumPy |
 | **Visualization** | Matplotlib, Seaborn, Plotly |
-| **Machine Learning** | Scikit-Learn |
+| **Machine Learning** | Scikit-Learn, XGBoost |
 | **Deep Learning** | TensorFlow, Keras |
 | **NLP** | NLTK, SpaCy, Hugging Face Transformers |
 | **Computer Vision** | OpenCV, CNNs |
-| **Environment** | Jupyter Notebook / Google Colab |
+| **Environment** | Jupyter Notebook |
 | **Version Control** | Git & GitHub |
 
 ---
@@ -59,7 +59,6 @@ Each project is designed to:
 ```markdown
 📁 Day - Project Name  
 │── 📄 Notebook.ipynb  
-│── 📊 Dataset/  (optional)
 │── 📝 README.md   
 └── 📈 Outputs/  (optional visualizations or results)  
 ```
@@ -70,7 +69,7 @@ Each project is designed to:
 
 | Day | Project Title | Description | Focus Area |
 |-----|----------------|-------------|-------------|
-| 01 | Credit Card Fraud Detection | Advanced Data Cleaning & Outlier Detection Pipeline using Isolation Forests and Robust Scaling | 🧮 Machine Learning (Data Preprocessing) |
+| 01 | Credit Card Fraud Detection | Advanced Data Cleaning & Outlier Detection Pipeline using Isolation Forests and Robust Scaling | 🧮 Machine Learning & Imbalance Handling |
 | ... | ... | ... | ... |
 
 *(This table will be updated daily as new projects are added.)*
