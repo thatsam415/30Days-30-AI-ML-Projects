@@ -54,7 +54,7 @@ The project implements multiple models — including **Logistic Regression**, **
 | Language | Python 🐍 |
 | Libraries | Pandas, NumPy, Scikit-learn, XGBoost, LightGBM, Matplotlib, Seaborn |
 | Model Persistence | Joblib |
-| Environment | Jupyter Notebook / Google Colab |
+| Environment | Jupyter Notebook |
 
 ---
 
