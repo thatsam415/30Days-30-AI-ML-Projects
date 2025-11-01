@@ -99,4 +99,4 @@ The project implements multiple models — including **Logistic Regression**, **
 
 ---
 
-> *Detecting fraud, one transaction at a time — learning, building, and innovating with AI 💡*  
+> *Learning. Building. Innovating. Evolving — the true spirit of AI 🌟* 
