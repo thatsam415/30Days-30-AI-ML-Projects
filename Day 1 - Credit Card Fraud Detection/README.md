@@ -72,15 +72,6 @@ The project implements multiple models — including **Logistic Regression**, **
 
 ---
 
-## 🖼️ Outputs  
-
-- Confusion Matrices for each model  
-- ROC Curves and Precision-Recall Curves  
-- Model comparison bar charts (ROC-AUC & PR-AUC)  
-- Final results table summarizing all metrics  
-
----
-
 ## 🧠 Key Learnings  
 
 - Learned to handle **imbalanced datasets** using evaluation metrics like PR-AUC  
