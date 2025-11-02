@@ -41,7 +41,7 @@ By analyzing time-series patterns and key electrical parameters, the model aims 
    - Split dataset (80 % train / 20 % test) and tuned hyperparameters  
 
 5. **Model Evaluation & Saving**  
-   - Evaluated using **MAE**, **RMSE**, and **R² Score**  
+   - Evaluated using **MAE** and **RMSE** 
    - Saved trained models (`lgb_energy_model.joblib`, `xgb_energy_model.joblib`) and preprocessed data  
 
 ---
