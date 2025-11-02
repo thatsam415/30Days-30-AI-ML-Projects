@@ -32,7 +32,7 @@ Each project is designed to:
 | **Language** | Python 🐍 |
 | **Data Handling** | Pandas, NumPy |
 | **Visualization** | Matplotlib, Seaborn, Plotly |
-| **Machine Learning** | Scikit-Learn, XGBoost |
+| **Machine Learning** | Scikit-Learn, XGBoost, LightGBM |
 | **Deep Learning** | TensorFlow, Keras |
 | **NLP** | NLTK, SpaCy, Hugging Face Transformers |
 | **Computer Vision** | OpenCV, CNNs |
@@ -70,6 +70,7 @@ Each project is designed to:
 | Day | Project Title | Description | Focus Area |
 |-----|----------------|-------------|-------------|
 | 01 | Credit Card Fraud Detection | Advanced Data Cleaning & Outlier Detection Pipeline using Isolation Forests and Robust Scaling | 🧮 Machine Learning & Imbalance Handling |
+| 02 | Energy Consumption Forecasting | Advanced Time Series Forecasting using Gradient Boosting (XGBoost and LightGBM) | ⚡ Regression / Time Series |
 | ... | ... | ... | ... |
 
 *(This table will be updated daily as new projects are added.)*
