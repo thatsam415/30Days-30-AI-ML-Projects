@@ -59,10 +59,10 @@ By analyzing time-series patterns and key electrical parameters, the model aims 
 
 ## 📈 Results  
 
-| Model | MAE | RMSE | R² Score |
-|--------|------|------|----------|
-| LightGBM | 0.048 | 0.072 | 0.94 |
-| XGBoost | 0.051 | 0.076 | 0.92 |
+| Model | MAE | RMSE |
+|--------|------|------|
+| LightGBM | 0.0138 | 0.0233 |
+| XGBoost | 0.0149 | 0.0271 |
 
 > ✅ *LightGBM achieved the best accuracy with the lowest MAE and highest R² (0.94), making it the preferred model for forecasting.*  
 
