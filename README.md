@@ -58,7 +58,8 @@ Each project is designed to:
 
 ```markdown
 📁 Day - Project Name  
-│── 📄 Notebook.ipynb  
+│── 📄 Notebook.ipynb
+│── 📊 Dataset (optional)
 │── 📝 README.md   
 └── 📈 Outputs/  (optional visualizations or results)  
 ```
