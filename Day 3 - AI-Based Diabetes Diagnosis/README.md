@@ -90,11 +90,12 @@ It identifies and ranks the most influential medical factors contributing to dia
 
 ## 🧠 Key Learnings  
 
-- SHAP provides **transparent and interpretable model explanations**.  
-- Permutation Importance complements SHAP by measuring **feature impact on accuracy**.  
-- Consistent ranking across both validates **reliable medical predictors**.  
-- Explainable AI helps build **trustworthy healthcare ML models**.  
-- Data scaling and proper preprocessing are vital for model performance.  
+- **SHAP** provides transparent and interpretable model explanations.  
+- **Permutation Importance** complements SHAP by measuring feature impact on accuracy.  
+- Consistent ranking across both validates reliable medical predictors such as **Glucose**, **BMI**, and **Age**.  
+- The model accurately predicts whether a person is **Diabetic** or **Non-Diabetic** based on these health indicators.  
+- **Explainable AI** helps build trustworthy and transparent healthcare ML models.  
+- **Data scaling and preprocessing** are crucial for strong model performance.  
 
 ---
 
