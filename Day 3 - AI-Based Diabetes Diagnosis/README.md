@@ -64,11 +64,11 @@ It identifies and ranks the most influential medical factors contributing to dia
 
 ## 📈 Results  
 
-| Model | Accuracy | AUC | F1 Score |
-|--------|-----------|-----|----------|
-| Logistic Regression | 0.714 | 0.823 | — |
-| Random Forest | 0.760 | 0.812 | — |
-| XGBoost | 0.734 | 0.805 | — |
+| Model | Accuracy | AUC |
+|--------|-----------|-----|
+| Logistic Regression | 0.714 | 0.823 |
+| Random Forest | 0.760 | 0.812 |
+| XGBoost | 0.734 | 0.805 |
 
 ### 🔍 Feature Importance Rankings  
 
