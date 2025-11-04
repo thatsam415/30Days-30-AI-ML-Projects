@@ -59,9 +59,10 @@ Each project is designed to:
 ```markdown
 📁 Day - Project Name  
 │── 📄 Notebook.ipynb
+│── 📝 README.md
 │── 📊 Dataset (optional)
-│── 📝 README.md   
-└── 📈 Outputs/  (optional visualizations or results)  
+│── 🤖 Trained Models/
+└── 📈 Outputs/   
 ```
 
 ---
@@ -73,6 +74,7 @@ Each project is designed to:
 | 01 | Credit Card Fraud Detection | Advanced Data Cleaning & Outlier Detection Pipeline using Isolation Forests and Robust Scaling | 🧮 Machine Learning & Imbalance Handling |
 | 02 | Energy Consumption Forecasting | Advanced Time Series Forecasting using Gradient Boosting (XGBoost and LightGBM) | ⚡ Regression / Time Series |
 | 03 | AI-Based Diabetes Diagnosis | Medical Diagnosis Feature Importance Analysis using Permutation Importance & SHAP | 🩺 Explainable ML |
+| 04 | Regularization on California Housing Dataset | Regularization Techniques Comparison: Lasso vs Ridge vs ElasticNet | 📊 Regression Analysis |
 | ... | ... | ... | ... |
 
 *(This table will be updated daily as new projects are added.)*
@@ -82,11 +84,12 @@ Each project is designed to:
 ## 📊 Datasets  
 
 All datasets are sourced from:  
+- [Scikit-learn Datasets](https://scikit-learn.org/stable/datasets/)  
 - [Kaggle](https://www.kaggle.com/datasets)  
 - [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php)  
-- [Google Dataset Search](https://datasetsearch.research.google.com/)  
+<!-- - [Google Dataset Search](https://datasetsearch.research.google.com/)  
 - [Hugging Face Datasets](https://huggingface.co/datasets)  
-- Public APIs and open-source data portals  
+- Public APIs and open-source data portals  -->
 
 ---
 
