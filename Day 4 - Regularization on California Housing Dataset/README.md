@@ -62,6 +62,20 @@ The project demonstrates how regularization improves model **stability**, **gene
 
 ---
 
+## What is Regularization?
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/80c12880-84db-4222-9108-83251b4a3bcd" 
+       alt="Regularization in Machine Learning" 
+       width="50%" />
+  <br><br>
+  <img src="https://github.com/user-attachments/assets/8686f400-99ab-4daa-9f75-4c9e668fce4f" 
+       alt="Types of Regularization in Regression" 
+       width="50%" />
+</div>
+
+---
+
 ## 📈 Results  
 
 | Model | R² Score | RMSE | Non-zero Coefficients | Observation |
