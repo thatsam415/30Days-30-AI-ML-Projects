@@ -77,6 +77,7 @@ Each project is designed to:
 | 04 | Regularization on California Housing Dataset | Regularization Techniques Comparison: Lasso vs Ridge vs ElasticNet | 📊 Regression Analysis |
 | 05 | Adult Income Prediction using Automated ML Pipelines in Scikit-Learn | Automated ML Pipeline Building using Scikit-Learn Pipelines & FeatureUnion | ⚙️ Automation / ML Engineering |
 | 06 | Predictive Maintenance System |  Machine Failure Prediction System using Logistic Regression on AI4I 2020 Sensor Data | 🏭 Predictive Analytics |
+| 07 | World Happiness Analysis Dashboard | Streamlit-powered dashboard uncovering global happiness trends through data visualization | 📈 Data Visualization / App |
 | ... | ... | ... | ... |
 
 *(This table will be updated daily as new projects are added.)*
