@@ -4,6 +4,8 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
+import kagglehub
+from kagglehub import KaggleDatasetAdapter
 
 # -------------------------------------------------------
 # 1. Page Setup
@@ -16,7 +18,7 @@ st.caption("Exploring and analyzing global happiness data interactively using St
 # 2. Load Dataset
 # -------------------------------------------------------
 try:
-    df = pd.read_csv("2015.csv", encoding='utf-8')
+    df = kagglehub.load_dataset(KaggleDatasetAdapter.PANDAS, "unsdsn/world-happiness", file_path)
     st.success("✅ Data loaded successfully!")
 except Exception as e:
     st.error(f"❌ Error loading dataset: {e}")
@@ -240,3 +242,4 @@ It lets you explore:
 
 Built using **Streamlit + Plotly + Pandas**
 """)
+
