@@ -1,6 +1,6 @@
 # 🧠 Day 7 — World Happiness Analysis Dashboard  
 
-> 🎯 *An interactive data visualization dashboard analyzing global happiness insights using Streamlit and Plotly.*  
+> 🎯 *Streamlit-powered dashboard uncovering global happiness trends through data visualization*  
 
 🌐 **[Deployed App Link → Click Here](https://day-7-world-happiness-report-2015-dashboard.streamlit.app/)**  
 
