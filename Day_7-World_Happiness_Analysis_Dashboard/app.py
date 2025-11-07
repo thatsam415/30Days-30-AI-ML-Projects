@@ -18,21 +18,26 @@ st.caption("Exploring and analyzing global happiness data interactively using St
 # 2. Load Dataset
 # -------------------------------------------------------
 # Load the latest version
-df = kagglehub.load_dataset(
-  KaggleDatasetAdapter.PANDAS,
-  "unsdsn/world-happiness",
-  file_path,
-  # Provide any additional arguments like 
-  # sql_query or pandas_kwargs. See the 
-  # documenation for more information:
-  # https://github.com/Kaggle/kagglehub/blob/main/README.md#kaggledatasetadapterpandas
-)
-# try:
-#     df = kagglehub.load_dataset(KaggleDatasetAdapter.PANDAS, "unsdsn/world-happiness", file_path)
-#     st.success("✅ Data loaded successfully!")
-# except Exception as e:
-#     st.error(f"❌ Error loading dataset: {e}")
-#     st.stop()
+try:
+    # Load dataset from Kaggle if not found locally
+    DATASET_NAME = "unsdsn/world-happiness"
+    FILE_PATH = "2015.csv"
+
+    if not os.path.exists(FILE_PATH):
+        st.warning("Downloading dataset from Kaggle...")
+        df = kagglehub.load_dataset(
+            KaggleDatasetAdapter.PANDAS,
+            DATASET_NAME,
+            FILE_PATH
+        )
+        df.to_csv(FILE_PATH, index=False)
+        st.success("Dataset downloaded and saved locally ✅")
+    else:
+        df = pd.read_csv(FILE_PATH)
+
+except Exception as e:
+    st.error(f"⚠️ Error loading dataset: {e}")
+
 
 # Rename columns for consistency
 df.rename(columns={
@@ -252,5 +257,6 @@ It lets you explore:
 
 Built using **Streamlit + Plotly + Pandas**
 """)
+
 
 
