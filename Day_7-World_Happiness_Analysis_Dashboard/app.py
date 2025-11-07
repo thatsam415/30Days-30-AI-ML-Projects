@@ -13,7 +13,7 @@ import os
 # 1. Page Setup
 # -------------------------------------------------------
 st.set_page_config(page_title="🌍 World Happiness Dashboard", layout="wide")
-st.title("😊 World Happiness Report 2015 Dashboard")
+st.title("😊 World Happiness Analysis Dashboard")
 st.caption("Exploring and analyzing global happiness data interactively using Streamlit and Plotly")
 st.markdown("""
     <style>
@@ -276,6 +276,7 @@ It lets you explore:
 
 Built using **Streamlit + Plotly + Pandas**
 """)
+
 
 
 
