@@ -15,6 +15,23 @@ import os
 st.set_page_config(page_title="🌍 World Happiness Dashboard", layout="wide")
 st.title("😊 World Happiness Report 2015 Dashboard")
 st.caption("Exploring and analyzing global happiness data interactively using Streamlit and Plotly")
+st.markdown("""
+    <style>
+        [data-testid="stSidebar"] {
+            min-width: 350px;
+            max-width: 350px;
+        }
+        [data-testid="stSidebarNav"] {
+            background-color: #0e1117;
+        }
+        [data-testid="stSidebar"] .css-1v3fvcr {
+            padding-right: 20px;
+        }
+        [data-testid="stSidebar"] {
+            overflow-y: auto;
+        }
+    </style>
+""", unsafe_allow_html=True)
 
 # -------------------------------------------------------
 # 2. Load Dataset
@@ -259,6 +276,7 @@ It lets you explore:
 
 Built using **Streamlit + Plotly + Pandas**
 """)
+
 
 
 
