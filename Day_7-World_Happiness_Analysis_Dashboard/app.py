@@ -6,6 +6,8 @@ import pandas as pd
 import plotly.express as px
 import kagglehub
 from kagglehub import KaggleDatasetAdapter
+import os
+
 
 # -------------------------------------------------------
 # 1. Page Setup
@@ -257,6 +259,7 @@ It lets you explore:
 
 Built using **Streamlit + Plotly + Pandas**
 """)
+
 
 
 
