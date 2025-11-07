@@ -14,7 +14,7 @@ import os
 # -------------------------------------------------------
 st.set_page_config(page_title="🌍 World Happiness Dashboard", layout="wide")
 st.title("😊 World Happiness Analysis Dashboard")
-st.caption("Exploring and analyzing global happiness data interactively using Streamlit and Plotly")
+st.caption("An interactive data visualization dashboard analyzing global happiness insights using Streamlit and Plotly.")
 st.markdown("""
     <style>
         [data-testid="stSidebar"] {
@@ -276,6 +276,7 @@ It lets you explore:
 
 Built using **Streamlit + Plotly + Pandas**
 """)
+
 
 
 
