@@ -31,7 +31,7 @@ Each project is designed to:
 |-----------|------------------|
 | **Language** | Python 🐍 |
 | **Data Handling** | Pandas, NumPy |
-| **Visualization** | Matplotlib, Seaborn, Plotly |
+| **Visualization** | Matplotlib, Seaborn, Plotly, Streamlit |
 | **Machine Learning** | Scikit-Learn, XGBoost, LightGBM, SHAP |
 | **Deep Learning** | TensorFlow, Keras |
 | **NLP** | NLTK, SpaCy, Hugging Face Transformers |
@@ -78,6 +78,7 @@ Each project is designed to:
 | 05 | Adult Income Prediction using Automated ML Pipelines in Scikit-Learn | Automated ML Pipeline Building using Scikit-Learn Pipelines & FeatureUnion | ⚙️ Automation / ML Engineering |
 | 06 | Predictive Maintenance System |  Machine Failure Prediction System using Logistic Regression on AI4I 2020 Sensor Data | 🏭 Predictive Analytics |
 | 07 | World Happiness Analysis Dashboard | Streamlit-powered dashboard uncovering global happiness trends through data visualization | 📈 Data Visualization / App |
+| 08 | Vehicle Insurance Claim Fraud Detection | Detecting fraudulent vehicle insurance claims using Machine Learning techniques (Random Forest + SMOTE) | 💳 Classification / Imbalanced Data |
 | ... | ... | ... | ... |
 
 *(This table will be updated daily as new projects are added.)*
