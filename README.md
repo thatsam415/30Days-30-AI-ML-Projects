@@ -80,12 +80,9 @@ Each project is designed to:
 | 07 | World Happiness Analysis Dashboard | Streamlit-powered dashboard uncovering global happiness trends through data visualization | 📈 Data Visualization / App |
 | 08 | Vehicle Insurance Claim Fraud Detection | Detecting fraudulent vehicle insurance claims using Machine Learning techniques (Random Forest + SMOTE) | 💳 Classification / Imbalanced Data |
 | 09 | Car Price Prediction | A Feature-Driven Machine Learning Approach for Predicting Used Car Resale Values with Regression Pipelines | 🧠 Feature Engineering |
-| 10 | Titanic Survival Prediction using Random Forest and XGBoost | Evaluating Ensemble Learning Algorithms on the Titanic Survival Prediction Task
- | 🧮 Model Benchmarking |
-| 11 | Telco Customer Churn Prediction using Voting Classifier | Ensemble Learning-Based Predictive Analysis for Customer Retention
- | 🔁 Ensemble Learning |
-| 12 | Iris Flower Classification using SHAP | Interpreting Machine Learning Models using SHAP Values (Explainable ML on Iris Dataset)
- | 🧩 Explainable ML |
+| 10 | Titanic Survival Prediction using Random Forest and XGBoost | Evaluating Ensemble Learning Algorithms on the Titanic Survival Prediction Task | 🧮 Model Benchmarking |
+| 11 | Telco Customer Churn Prediction using Voting Classifier | Ensemble Learning-Based Predictive Analysis for Customer Retention | 🔁 Ensemble Learning |
+| 12 | Iris Flower Classification using SHAP | Interpreting Machine Learning Models using SHAP Values (Explainable ML on Iris Dataset) | 🧩 Explainable ML |
 | ... | ... | ... | ... |
 
 *(This table will be updated daily as new projects are added.)*
