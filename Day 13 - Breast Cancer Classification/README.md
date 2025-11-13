@@ -86,10 +86,17 @@ The final tuned Random Forest model achieves **96% accuracy**, making it suitabl
 
 ## 📚 References  
 
-- UCI Breast Cancer Wisconsin Dataset  
-- Scikit-Learn Documentation  
-- Breiman, L. (2001). *Random Forests*  
-- Seaborn & Matplotlib Documentation  
+## 📚 References  
+
+- [UCI Breast Cancer Wisconsin Dataset](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic))
+- [Scikit-Learn Documentation](https://scikit-learn.org/)
+- Breiman, L. (2001). *Random Forests.*  
+  [https://doi.org/10.1023/A:1010933404324](https://doi.org/10.1023/A:1010933404324)
+- [GridSearchCV Documentation](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html)
+- [Random Forest Classifier — Scikit-Learn](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
+- [Seaborn Documentation](https://seaborn.pydata.org/)
+- [Matplotlib Documentation](https://matplotlib.org/)
+
 
 ---
 
