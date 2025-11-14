@@ -83,6 +83,8 @@ Each project is designed to:
 | 10 | Titanic Survival Prediction using Random Forest and XGBoost | Evaluating Ensemble Learning Algorithms on the Titanic Survival Prediction Task | 🧮 Model Benchmarking |
 | 11 | Telco Customer Churn Prediction using Voting Classifier | Ensemble Learning-Based Predictive Analysis for Customer Retention | 🔁 Ensemble Learning |
 | 12 | Iris Flower Classification using SHAP | Interpreting Machine Learning Models using SHAP Values (Explainable ML on Iris Dataset) | 🧩 Explainable ML |
+| 13 | Breast Cancer Classification | Supervised Learning Approach for Medical Diagnosis with Hyperparameter-Tuned Random Forest Models | 🎯 Hyperparameter Optimization |
+| 14 | Climate Forecasting using LSTM | Advanced time-series modeling with LSTM to predict daily temperature trends and future climate patterns | ⏳ Forecasting  |
 | ... | ... | ... | ... |
 
 *(This table will be updated daily as new projects are added.)*
