@@ -95,7 +95,7 @@ Each project is designed to:
 | 22 | Topic Modeling of News Articles Using LDA & BERTopic | Dual Approach to Topic Modeling of News Articles Using Gensim LDA and BERTopic with Sentence Embeddings | 📰 NLP / Unsupervised Learning |
 | 23 | Customer Loyalty & CLV Prediction | Predicting Customer Lifetime Value: RFM-Based Segmentation, Cohort Retention Analysis, and XGBoost Forecasting | 🛍️ Customer Analytics |
 | 24 | Customer Term Deposit Subscription Prediction | SMOTE-Enhanced Bank Deposit Subscription Model using Random Forests | 🏦 Classification / Imbalanced Data |
-| 25 | ... | ... | ... |
+| 25 | Loan Default Prediction using Gradient Boosting | Predicting borrower delinquency risk using financial and demographic features | 💰 Classification / Risk Analytics |
 | ... | ... | ... | ... |
 
 
