@@ -85,7 +85,19 @@ Each project is designed to:
 | 12 | Iris Flower Classification using SHAP | Interpreting Machine Learning Models using SHAP Values (Explainable ML on Iris Dataset) | 🧩 Explainable ML |
 | 13 | Breast Cancer Classification | Supervised Learning Approach for Medical Diagnosis with Hyperparameter-Tuned Random Forest Models | 🎯 Hyperparameter Optimization |
 | 14 | Climate Forecasting using LSTM | Advanced time-series modeling with LSTM to predict daily temperature trends and future climate patterns | ⏳ Forecasting  |
+| 15 | Chest X-Ray Image Classification | CNN-Based Classification of Chest X-Ray Images for Pneumonia Detection | 🧬 Deep Learning / Medical AI |
+| 16 | Hand Gesture Recognition | CNN–Driven System for Accurate Classification of Rock–Paper–Scissors Hand Gestures | 🌿 Computer Vision |
+| 17 | Plant Species Classification using KMeans and PCA | Unsupervised Clustering of Iris Flowers Using PCA-Reduced Features | ... |
+| 18 | Temperature Prediction Across Multiple Weather Stations | ... | ... |
+| 19 | Stock Price Prediction | ... | 💹 Time Series / Deep Learning |
+| 20 | SMS Spam Detection using Naive Bayes | ... | ... |
+| 21 | Student Performance Prediction | ... | ... |
+| 22 | Topic Modeling of News Articles Using LDA & BERTopic | ... | 📰 NLP / Unsupervised Learning |
+| 23 | Customer Loyalty & CLV Prediction | ... | ... |
+| 24 | Customer Term Deposit Subscription Prediction | ... | ... |
+| 25 | ... | ... | ... |
 | ... | ... | ... | ... |
+
 
 *(This table will be updated daily as new projects are added.)*
 
