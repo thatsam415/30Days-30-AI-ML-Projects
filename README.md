@@ -87,14 +87,14 @@ Each project is designed to:
 | 14 | Climate Forecasting using LSTM | Advanced time-series modeling with LSTM to predict daily temperature trends and future climate patterns | ⏳ Forecasting  |
 | 15 | Chest X-Ray Image Classification | CNN-Based Classification of Chest X-Ray Images for Pneumonia Detection | 🧬 Deep Learning / Medical AI |
 | 16 | Hand Gesture Recognition | CNN–Driven System for Accurate Classification of Rock–Paper–Scissors Hand Gestures | 🌿 Computer Vision |
-| 17 | Plant Species Classification using KMeans and PCA | Unsupervised Clustering of Iris Flowers Using PCA-Reduced Features | ... |
-| 18 | Temperature Prediction Across Multiple Weather Stations | ... | ... |
-| 19 | Stock Price Prediction | ... | 💹 Time Series / Deep Learning |
-| 20 | SMS Spam Detection using Naive Bayes | ... | ... |
-| 21 | Student Performance Prediction | ... | ... |
-| 22 | Topic Modeling of News Articles Using LDA & BERTopic | ... | 📰 NLP / Unsupervised Learning |
-| 23 | Customer Loyalty & CLV Prediction | ... | ... |
-| 24 | Customer Term Deposit Subscription Prediction | ... | ... |
+| 17 | Plant Species Classification using KMeans and PCA | Unsupervised Clustering of Iris Flowers Using PCA-Reduced Features | 🔍 Unsupervised Learning |
+| 18 | Temperature Prediction Across Multiple Weather Stations | GRU-Based Time-Series Modeling for Accurate Temperature Prediction Using Scaled Weather Variables | 🌡️ Deep Learning / Time Series |
+| 19 | Stock Price Prediction | LSTM-Based Forecasting of Stock Prices Using Multi-Feature Scaling and Long Historical Window Sequences | 💹 Time Series / Deep Learning |
+| 20 | SMS Spam Detection using Naive Bayes | Machine-Learning Approach to Identifying Spam Messages Through TF-IDF Feature Extraction and Multinomial Naive Bayes Modeling | ✉️ NLP / Text Classification |
+| 21 | Student Performance Prediction | Predicting Student Academic Performance Using Demographic and Behavioral Features with Ensemble Learning | 📚 Regression / Predictive Analytics |
+| 22 | Topic Modeling of News Articles Using LDA & BERTopic | Dual Approach to Topic Modeling of News Articles Using Gensim LDA and BERTopic with Sentence Embeddings | 📰 NLP / Unsupervised Learning |
+| 23 | Customer Loyalty & CLV Prediction | Predicting Customer Lifetime Value: RFM-Based Segmentation, Cohort Retention Analysis, and XGBoost Forecasting | 🛍️ Customer Analytics |
+| 24 | Customer Term Deposit Subscription Prediction | SMOTE-Enhanced Bank Deposit Subscription Model using Random Forests | 🏦 Classification / Imbalanced Data |
 | 25 | ... | ... | ... |
 | ... | ... | ... | ... |
 
@@ -132,7 +132,6 @@ All datasets are sourced from:
 I’ll be sharing **daily insights, learnings, and project updates** on LinkedIn — come join my journey!  
 
 🔗 [LinkedIn Profile](https://linkedin.com/in/that-sam)  
-💻 [GitHub Profile](https://github.com/thatsam415)  
 
 ⭐ *If you like this initiative, don’t forget to **star the repo** and follow my progress!*  
 
