@@ -96,6 +96,7 @@ Each project is designed to:
 | 23 | Customer Loyalty & CLV Prediction | Predicting Customer Lifetime Value: RFM-Based Segmentation, Cohort Retention Analysis, and XGBoost Forecasting | 🛍️ Customer Analytics |
 | 24 | Customer Term Deposit Subscription Prediction | SMOTE-Enhanced Bank Deposit Subscription Model using Random Forests | 🏦 Classification / Imbalanced Data |
 | 25 | Loan Default Prediction using Gradient Boosting | Predicting borrower delinquency risk using financial and demographic features | 💰 Classification / Risk Analytics |
+| 26 | Air Quality Index (AQI) Prediction | Forecasting Air Quality Index using pollutant concentrations, meteorological variables, and ensemble-based regression models | 🌫️ Regression / Environmental Data |
 | ... | ... | ... | ... |
 
 
