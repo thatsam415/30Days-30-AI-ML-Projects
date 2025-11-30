@@ -97,11 +97,11 @@ Each project is designed to:
 | 24 | Customer Term Deposit Subscription Prediction | SMOTE-Enhanced Bank Deposit Subscription Model using Random Forests | 🏦 Classification / Imbalanced Data |
 | 25 | Loan Default Prediction using Gradient Boosting | Predicting borrower delinquency risk using financial and demographic features | 💰 Classification / Risk Analytics |
 | 26 | Air Quality Index (AQI) Prediction | End-to-end model to estimate daily AQI levels using key pollutant features and Random Forest regression | 🌫️ Regression / Environmental Data |
-| 27 | Customer Segmentation with RFM + K-Means | Unsupervised segmentation of customers based on recency, frequency, and monetary patterns using K-Means and RFM analytics | 🛍️ Unsupervised Learning / Customer Analytics |
-| ... | ... | ... | ... |
+| 27 | Customer Segmentation with RFM + K-Means | Unsupervised segmentation of customers based on RFM patterns using K-Means and RFM analytics | 🛍️ Unsupervised Learning / Customer Analytics |
+| 28 | Sentiment Analysis of Amazon Product Reviews | Classifying the sentiment of Amazon product reviews using TF-IDF representations with Multinomial Naive Bayes classifier | ✨ NLP / Text Classification |
+| 29 | Movie Box Office Revenue Prediction | Predicting box office revenue using movie metadata with regression models | 🎬 Regression / Feature Engineering |
+| 30 | Fake News Detection Using TF-IDF + SVM | Identifying real vs. fake news articles through TF-IDF feature extraction and Support Vector Machine classification | 📰 NLP / Text Classification |
 
-
-*(This table will be updated daily as new projects are added.)*
 
 ---
 
